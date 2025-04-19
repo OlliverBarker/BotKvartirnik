@@ -151,7 +151,7 @@ async def complete_application(update: Update, context: ContextTypes.DEFAULT_TYP
 def main() -> None:
     application = import os
 
-application = Application.builder().token(os.getenv("7558669433:AAHuYeWzCs8wWbKi0DKtXakySsRUEsaUBkg")).build()
+application = Application.builder().token(os.getenv("хуй")).build()
 
     conv_handler = ConversationHandler(
         entry_points=[CommandHandler("start", start)],
